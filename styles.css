@@ -7,7 +7,7 @@
 body {
     /* background */
     background: rgb(18,41,158);
-    background: linear-gradient(120deg, #4f4e4e, #000000);
+    background: linear-gradient(180deg, #030982, #000000);
 
     min-height: 100vh; /* viewport height */
     color: white;
@@ -39,13 +39,13 @@ form input, form button {
 }
 
 form button {
-    color: grey;
+    color: #2986f7;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover {
-    background-color: #000000;
+    background-color: #2986f7;
     color: white;
 }
 
@@ -143,7 +143,7 @@ select {
     bottom: 0;
     right: 0;
     padding: 0 1rem;
-    background-color: #595959;
+    background-color: #2986f7;
     cursor: pointer;
     pointer-events: none;
 }
